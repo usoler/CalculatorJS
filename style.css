@@ -1,0 +1,17 @@
+.calculator { 
+	border: 3px #777777 ridge; 
+	width: 250px;
+	text-align: center;
+	background-color: #3D3D3D;
+}
+
+/* screen */
+#screenText { width: 185px; border: 2px black solid; text-align: right; 
+                 position: relative; left: 23px;  padding: 0px 5px;
+                 background-color: #f8f8ff; font-family: "courier new"; 
+                 overflow: hidden;}
+
+/* buttons */
+.calculator [type=button] { width: 35px; padding: 0; color: white; background-color: #959595; }
+.calculator input.control { color: white; background-color: #eca052; width: 60px; }
+.calculator input.operator { background-color: #5f5f5f; }
